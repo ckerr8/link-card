@@ -19,7 +19,7 @@ p {
   margin: 0;
 }
 
-.text {
+.info {
   font-family: Georgia, serif;
   color: #512200;
   display: inline-block;
@@ -34,4 +34,56 @@ dl {
   padding: .6rem 0 1rem;
   list-style-type: none;
   font-size: .875rem;
+}
+
+.category, .info {
+  color: #512200;
+  min-width: 45%;
+  display: inline-block;
+  font-size: .9rem;
+}
+
+.text {
+  font-style: italic;
+  font-size: .9rem;
+  margin: 0;
+}
+
+.btn {
+  border: 2px solid #785439;
+  background-color: #785439;
+  border-radius: 8px;
+  color: #f0eee8;
+  padding: .3em 0 .4em;
+  font-family: Dosis, sans-serif;
+  font-size: 1.125rem;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  min-width: 40%;
+  max-width: 100px;
+}
+
+.body {
+  border: 3px solid #9a816d;
+  border-radius: 8px;
+  background-color: #dcd4cd;
+  padding: 0 0 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link-card {
+  margin: 0;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+.btn:hover {
+  background-color: #512200;
 }
