@@ -1,25 +1,27 @@
 html {
-  html {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+  background-color: #f0eee8;
+  line-height: 1.5;
+}
 
-  *, *::before, *::after {
-    box-sizing: inherit;
-  }
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 
 .link-card h2 {
-  font-weight: bold;
   font-family: Dosis, sans-serif;
+  font-weight: bold;
+  color: #512200;
   font-size: 1.5rem;
   padding: 0 1rem;
-  color: #512200;
+  margin-bottom: 1rem;
 }
 
 p {
   margin: 0;
 }
 
-.info {
+.text {
   font-family: Georgia, serif;
   color: #512200;
   display: inline-block;
@@ -43,7 +45,7 @@ dl {
   font-size: .9rem;
 }
 
-.text {
+.info {
   font-style: italic;
   font-size: .9rem;
   margin: 0;
